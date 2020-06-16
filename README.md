@@ -60,8 +60,8 @@ Program prints players who meet the standards among KBO players from 1982 to 202
 html 데이터를 가져와 원하는 데이터만 가져오도록 직접 파싱해야 하는 점입니다.
 
 이 문제를 해결하고자 다음과 같은 라이브러리를 사용했습니다.\
-* requests : get함수를 통해 STATIZ 홈페이지의 정보들을 모아 Response 객체로 반환.\
-* BeautifulSoup : request의 get 함수로 읽어온 Response 객체에서 원하는 정보추출.\
+* requests : get함수를 통해 STATIZ 홈페이지의 정보들을 모아 Response 객체로 반환.
+* BeautifulSoup : request의 get 함수로 읽어온 Response 객체에서 원하는 정보추출.
 
 위의 두 라이브러리로 원하는 value가 있는 html코드에 가 value를 읽고\
-사용자가 입력한 값과 비교해 큰 경우를 출력했습니다.\
+사용자가 입력한 값과 비교해 큰 경우를 출력했습니다.
